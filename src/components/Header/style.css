@@ -1,0 +1,30 @@
+.header {
+  height: 70px;
+  background: #272727;
+  margin-bottom: 25px;
+}
+
+.header__inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header__menu {
+  display: flex;
+  gap: 20px;
+}
+
+.header__menu a {
+  color: #eaeaea;
+  text-decoration: none;
+}
